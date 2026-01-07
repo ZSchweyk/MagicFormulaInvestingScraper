@@ -25,13 +25,7 @@ def json_to_dict(file1):
 
 
 if __name__ == "__main__":
-    data1 = json_to_dict("results/results-2025_12_31_12_42_25.json")
-    data2 = json_to_dict("results/results-2026_01_05_19_03_17.json")
+    data1 = json_to_dict("results/results-2026_01_05_19_03_17.json")
+    data2 = json_to_dict("results/results-2026_01_06_21_42_51.json")
     d = diff(data1, data2)
     pprint(d)
-
-    a = {"a", "b", "c"}
-    b = {"a", "b", "d"}
-
-    print(a - b)
-    print(b - a)
