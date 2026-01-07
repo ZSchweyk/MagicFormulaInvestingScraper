@@ -9,6 +9,8 @@ from typing import List, Dict, Any, Optional
 
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeoutError
 
+from settings import min_mcap, num_stocks
+
 
 LOGIN_URL = "https://www.magicformulainvesting.com/Account/LogOn"
 SCREENER_URL = "https://www.magicformulainvesting.com/Screening/StockScreening"
@@ -324,11 +326,11 @@ def write_outputs(
 def parse_args() -> Args:
     now_str = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
     p = argparse.ArgumentParser()
-    p.add_argument("--min-mcap", type=int, default=1000, help="Minimum market cap in *millions* (e.g., 1000 = $1B).")
-    p.add_argument("--num-stocks", type=int, default=50, help="Number of stocks to list (30 or 50).")
-    p.add_argument("--headless", action="store_true", help="Run browser headless.")
-    p.add_argument("--out-json", default=f"results/results-{now_str}.json")
-    p.add_argument("--out-csv", default=f"results/results-{now_str}.csv")
+    p.add_argument("--min-mcap", type=int, default=min_mcap, help="Minimum market cap in *millions* (e.g., 1000 = $1B).")
+    p.add_argument("--num-stocks", type=int, default=num_stocks, help="Number of stocks to list (30 or 50).")
+    p.add_argument("--headless", action="store_true", default=True, help="Run browser headless.")
+    p.add_argument("--out-json", default=f"results/{now_str}.json")
+    p.add_argument("--out-csv", default=f"results/{now_str}.csv")
     p.add_argument("--timeout-ms", type=int, default=30000)
     a = p.parse_args()
 
@@ -342,17 +344,22 @@ def parse_args() -> Args:
     )
 
 
-def main() -> None:
+def main(_email=None, _password=None) -> None:
     args = parse_args()
-    email = require_env("MFI_EMAIL")
-    password = require_env("MFI_PASSWORD")
+    email = _email if _email is not None else require_env("MFI_EMAIL") 
+    password = _password if _password is not None else require_env("MFI_PASSWORD")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=args.headless)
         page = browser.new_page()
 
         login_if_needed(page, email, password, args.timeout_ms)
-        set_filters_and_submit(page, args.min_mcap_millions, args.num_stocks, args.timeout_ms)
+        set_filters_and_submit(
+            page,
+            args.min_mcap_millions,
+            args.num_stocks,
+            args.timeout_ms
+        )
 
         rows = scrape_tableform_table(page)
         if not rows:
@@ -370,6 +377,7 @@ def main() -> None:
 
         print(f"Saved {len(rows)} rows to:\n  {args.out_json}\n  {args.out_csv}")
         browser.close()
+        return args.out_json
 
 
 if __name__ == "__main__":
