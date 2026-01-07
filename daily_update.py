@@ -10,7 +10,7 @@ from credentials import email, password, GOOGLE_APP_CREDS
 
 
 def daily_update():
-    # fetch(email, password)
+    fetch(email, password)
     results_dir = "results"
     path = Path(results_dir)
     results = [datetime.strptime(file_path.name, "%Y_%m_%d_%H_%M_%S.json") for file_path in path.glob("*.json")]
@@ -29,7 +29,8 @@ def daily_update():
 
     change_alert = ""
     if added or removed:
-        change_alert = f"""Between the current run ({results[0].strftime('%m/%d/%y %I:%M %p')}) and the last run ({results[1].strftime('%m/%d/%y %I:%M %p')}), the following tickers were
+        change_alert = f"""
+Between the current run ({results[0].strftime('%m/%d/%y %I:%M %p')}) and the last run ({results[1].strftime('%m/%d/%y %I:%M %p')}), the following tickers were
 
 Added - {added}
 Removed - {removed}
@@ -43,11 +44,10 @@ Removed - {removed}
         GOOGLE_APP_CREDS["account"],
         GOOGLE_APP_CREDS["password"],
         ["mrtaquito04@gmail.com"],
-        f"Magic Formula {datetime.now().strftime('%d/%m/%y %I:%M %p')} Update",
+        f"Magic Formula {datetime.now().strftime('%d/%m/%y %I:%M %p')} {'RECOMMENDATION UPDATE!' if added or removed else ''}",
         f"""Zeyn,
-
 {change_alert}
-Joel Greenblatt's Magic Formula currently recommends the following stocks:
+Joel Greenblatt's Magic Formula currently recommends the following stocks as of {results[0].strftime('%m/%d/%y %I:%M %p')}:
 Min Market Cap = ${min_mcap}M
 Number of Stocks = {num_stocks}
 {'\n'.join(stocks)}
