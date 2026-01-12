@@ -43,7 +43,7 @@ Removed - {removed}
     send_email(
         GOOGLE_APP_CREDS["account"],
         GOOGLE_APP_CREDS["password"],
-        ["mrtaquito04@gmail.com"],
+        ["zschweyk@gmail.com"],
         f"Magic Formula {datetime.now().strftime('%d/%m/%y %I:%M %p')} {'RECOMMENDATION UPDATE!' if added or removed else ''}",
         f"""Zeyn,
 {change_alert}
