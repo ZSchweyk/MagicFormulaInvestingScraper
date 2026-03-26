@@ -1,0 +1,360 @@
+{
+  "inputs": {
+    "min_market_cap_millions": 50,
+    "num_stocks": 50,
+    "scrape_timestamp": "2026-03-26 03:37:32 PM",
+    "source": "magicformulainvesting.com"
+  },
+  "results": [
+    {
+      "Company Name (in alphabetical order)": "Altria Group Inc",
+      "Ticker": "MO",
+      "Market Cap ($ Millions)": "106,788.00",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "AMC Networks Inc",
+      "Ticker": "AMCX",
+      "Market Cap ($ Millions)": "286.08",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "BioCryst Pharmaceuticals Inc",
+      "Ticker": "BCRX",
+      "Market Cap ($ Millions)": "2,030.68",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Black Diamond Therapeutics Inc",
+      "Ticker": "BDTX",
+      "Market Cap ($ Millions)": "125.13",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Bumble Inc",
+      "Ticker": "BMBL",
+      "Market Cap ($ Millions)": "430.32",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Catalyst Pharmaceutical Inc",
+      "Ticker": "CPRX",
+      "Market Cap ($ Millions)": "2,915.83",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Cerence Inc",
+      "Ticker": "CRNC",
+      "Market Cap ($ Millions)": "296.22",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "CGI Inc",
+      "Ticker": "GIB",
+      "Market Cap ($ Millions)": "15,625.53",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Collegium Pharmaceutical Inc",
+      "Ticker": "COLL",
+      "Market Cap ($ Millions)": "1,054.29",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Consensus Cloud Solutions Inc",
+      "Ticker": "CCSI",
+      "Market Cap ($ Millions)": "468.45",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "CorMedix Inc",
+      "Ticker": "CRMD",
+      "Market Cap ($ Millions)": "517.89",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "09/30"
+    },
+    {
+      "Company Name (in alphabetical order)": "Cricut Inc",
+      "Ticker": "CRCT",
+      "Market Cap ($ Millions)": "855.91",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Crocs Inc",
+      "Ticker": "CROX",
+      "Market Cap ($ Millions)": "4,020.52",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "DHI Group Inc",
+      "Ticker": "DHX",
+      "Market Cap ($ Millions)": "118.71",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Enghouse Systems Ltd",
+      "Ticker": "EGHSF",
+      "Market Cap ($ Millions)": "643.37",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "10/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "EverQuote Inc",
+      "Ticker": "EVER",
+      "Market Cap ($ Millions)": "578.49",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "GAMBLING DOT COM GROUP LTD",
+      "Ticker": "GAMB",
+      "Market Cap ($ Millions)": "140.32",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "09/30"
+    },
+    {
+      "Company Name (in alphabetical order)": "GigaCloud Technology Inc",
+      "Ticker": "GCT",
+      "Market Cap ($ Millions)": "1,649.73",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "H&R Block Inc",
+      "Ticker": "HRB",
+      "Market Cap ($ Millions)": "3,901.64",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Harmony Biosciences Holdings Inc",
+      "Ticker": "HRMY",
+      "Market Cap ($ Millions)": "1,592.66",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "HP Inc",
+      "Ticker": "HPQ",
+      "Market Cap ($ Millions)": "17,848.21",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "01/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Ironwood Pharmaceuticals Inc",
+      "Ticker": "IRWD",
+      "Market Cap ($ Millions)": "518.17",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "J Jill Inc",
+      "Ticker": "JILL",
+      "Market Cap ($ Millions)": "230.96",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "10/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "John Wiley & Sons Inc.",
+      "Ticker": "WLY",
+      "Market Cap ($ Millions)": "1,970.45",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "01/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Keros Therapeutics Inc",
+      "Ticker": "KROS",
+      "Market Cap ($ Millions)": "460.77",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "09/30"
+    },
+    {
+      "Company Name (in alphabetical order)": "Korn Ferry",
+      "Ticker": "KFY",
+      "Market Cap ($ Millions)": "3,242.68",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "01/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "MediaAlpha Inc",
+      "Ticker": "MAX",
+      "Market Cap ($ Millions)": "530.59",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "OneSpan Inc",
+      "Ticker": "OSPN",
+      "Market Cap ($ Millions)": "399.39",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Pediatrix Medical Group Inc",
+      "Ticker": "MD",
+      "Market Cap ($ Millions)": "1,758.26",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Phoenix Education Partners Inc",
+      "Ticker": "PXED",
+      "Market Cap ($ Millions)": "1,131.41",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "11/30"
+    },
+    {
+      "Company Name (in alphabetical order)": "Pitney Bowes Inc.",
+      "Ticker": "PBI",
+      "Market Cap ($ Millions)": "1,644.18",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Playtika Holding Corp",
+      "Ticker": "PLTK",
+      "Market Cap ($ Millions)": "1,089.53",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "PTC Therapeutics Inc",
+      "Ticker": "PTCT",
+      "Market Cap ($ Millions)": "5,438.39",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Puma Biotechnology Inc",
+      "Ticker": "PBYI",
+      "Market Cap ($ Millions)": "319.08",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Regis Corp",
+      "Ticker": "RGS",
+      "Market Cap ($ Millions)": "61.53",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Rigel Pharmaceuticals Inc",
+      "Ticker": "RIGL",
+      "Market Cap ($ Millions)": "481.40",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "09/30"
+    },
+    {
+      "Company Name (in alphabetical order)": "Rimini Street Inc",
+      "Ticker": "RMNI",
+      "Market Cap ($ Millions)": "289.47",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "SBC Medical Group Holdings Inc",
+      "Ticker": "SBC",
+      "Market Cap ($ Millions)": "390.82",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "09/30"
+    },
+    {
+      "Company Name (in alphabetical order)": "Shutterstock Inc",
+      "Ticker": "SSTK",
+      "Market Cap ($ Millions)": "585.86",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "SIGA Technologies Inc",
+      "Ticker": "SIGA",
+      "Market Cap ($ Millions)": "357.34",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "09/30"
+    },
+    {
+      "Company Name (in alphabetical order)": "Sirius XM Holdings Inc",
+      "Ticker": "SIRI",
+      "Market Cap ($ Millions)": "7,701.65",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "The Arena Group Holdings Inc",
+      "Ticker": "AREN",
+      "Market Cap ($ Millions)": "115.61",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "09/30"
+    },
+    {
+      "Company Name (in alphabetical order)": "The Cigna Group",
+      "Ticker": "CI",
+      "Market Cap ($ Millions)": "71,230.12",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Travelzoo",
+      "Ticker": "TZOO",
+      "Market Cap ($ Millions)": "70.07",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "TriNet Group Inc",
+      "Ticker": "TNET",
+      "Market Cap ($ Millions)": "1,775.52",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Unisys Corp",
+      "Ticker": "UIS",
+      "Market Cap ($ Millions)": "152.08",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Upwork Inc",
+      "Ticker": "UPWK",
+      "Market Cap ($ Millions)": "1,477.77",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Versant Media Group Inc",
+      "Ticker": "VSNT",
+      "Market Cap ($ Millions)": "5,262.13",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Xponential Fitness Inc",
+      "Ticker": "XPOF",
+      "Market Cap ($ Millions)": "209.42",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    },
+    {
+      "Company Name (in alphabetical order)": "Yelp Inc",
+      "Ticker": "YELP",
+      "Market Cap ($ Millions)": "1,451.49",
+      "Price\u00a0From": "03/25",
+      "Most Recent Quarter Data": "12/31"
+    }
+  ]
+}
